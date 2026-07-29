@@ -1,97 +1,109 @@
 <!DOCTYPE html>
 <html lang="sl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fusion Feast</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion Feast</title>
+
     <link rel="stylesheet" href="style.css">
-
-<style>
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#111;
-    color:white;
-}
-
-header{
-    background:#ff6a00;
-    padding:20px;
-    text-align:center;
-}
-
-nav{
-    margin-top:10px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
-}
-
-.hero{
-    text-align:center;
-    padding:100px 20px;
-}
-
-.hero h1{
-    font-size:60px;
-    margin-bottom:10px;
-}
-
-.hero p{
-    font-size:22px;
-    color:#ddd;
-}
-
-button{
-    margin-top:30px;
-    padding:15px 35px;
-    font-size:18px;
-    background:#ff6a00;
-    color:white;
-    border:none;
-    border-radius:10px;
-    cursor:pointer;
-}
-
-button:hover{
-    background:#ff8c33;
-}
-
-footer{
-    background:#1b1b1b;
-    text-align:center;
-    padding:20px;
-}
-</style>
-
 </head>
+
 <body>
 
 <header>
-<h2>🍔 Fusion Feast</h2>
+    <div class="logo">🍔 Fusion Feast</div>
 
-<nav>
-<a href="#">Domov</a>
-<a href="#">Meni</a>
-<a href="#">Ekipa</a>
-<a href="#">Kontakt</a>
-</nav>
-
+    <nav>
+        <a href="#home">Domov</a>
+        <a href="#menu">Meni</a>
+        <a href="#gallery">Galerija</a>
+        <a href="#team">Ekipa</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
 </header>
 
-<section class="hero">
+<section class="hero" id="home">
 
-<h1>Fusion Feast</h1>
+    <h1>Fusion Feast</h1>
 
-<p>Najboljša RP restavracija na Slopixle.</p>
+    <p>Najboljša RP restavracija na Slopixle.</p>
 
-<button onclick="alert('Dobrodošli v Fusion Feast!')">
-Naroči zdaj
-</button>
+    <button>🍔 Oglej si meni</button>
+
+</section>
+
+<section id="menu">
+
+<h2>🍔 Naša ponudba</h2>
+
+<div class="cards">
+
+<div class="card">
+🍔
+<h3>Burgerji</h3>
+<p>Najboljši burgerji v mestu.</p>
+</div>
+
+<div class="card">
+🍕
+<h3>Pice</h3>
+<p>Sveže pečene pice.</p>
+</div>
+
+<div class="card">
+🥤
+<h3>Pijače</h3>
+<p>Hladne in tople pijače.</p>
+</div>
+
+<div class="card">
+🍰
+<h3>Sladice</h3>
+<p>Sladek zaključek obroka.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>📸 Galerija</h2>
+
+<p>Tukaj bodo slike restavracije.</p>
+
+</section>
+
+<section id="team">
+
+<h2>👨‍🍳 Naša ekipa</h2>
+
+<div class="cards">
+
+<div class="card">
+👑
+<h3>Manager</h3>
+</div>
+
+<div class="card">
+👨‍🍳
+<h3>Chef</h3>
+</div>
+
+<div class="card">
+🛵
+<h3>Dostavljalec</h3>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>📞 Kontakt</h2>
+
+<p>Discord: discord.gg/tvojserver</p>
 
 </section>
 
@@ -100,6 +112,8 @@ Naroči zdaj
 © 2026 Fusion Feast
 
 </footer>
+
 <script src="script.js"></script>
+
 </body>
 </html>
